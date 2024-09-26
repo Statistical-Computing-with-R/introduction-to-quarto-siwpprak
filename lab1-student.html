@@ -3126,15 +3126,19 @@ vertical-align: -.125em;
 <section id="running-the-provided-code" class="level2">
 <h2 class="anchored" data-anchor-id="running-the-provided-code">Running the Provided Code</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load a dataset into the R Environment.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(ToothGrowth)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Look at the summary of the variables in the dataset.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(ToothGrowth)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>Question 3</strong> – Let’s spice this code up a bit. Delete <code>1 + 1</code> from the code chunk and paste in the code provided in the Lab 1 instructions.</p>
 <section id="check-the-data-documentation" class="level3">
 <h3 class="anchored" data-anchor-id="check-the-data-documentation">Check the Data Documentation</h3>
 <p><strong>Question 4</strong> – In your <strong>console</strong> (<em>not</em> in the Quarto document), type <code>?ToothGrowth</code> (or alternatively <code>help(ToothGrowth)</code>.Use the information that pops up in the <em>Help</em> pane in RStudio to fill in the blanks below.</p>
-<p><em>This dataset investigates the effect of _____ on tooth growth in ____.</em></p>
-<p><em>The two supplement delivery methods include OJ (____) and VC (____).</em></p>
-<p><em><code>ToothGrowth</code> is a data frame with <strong><em>observations and </em></strong>_ variables.</em></p>
+<p><em>This dataset investigates the effect of vitamin C on tooth growth in guinea pigs.</em></p>
+<p><em>The two supplement delivery methods include OJ (orange juice ) and VC (ascorbic acid).</em></p>
+<p><em><code>ToothGrowth</code> is a data frame with 60 observations and 3 variables.</em></p>
 <p><strong>Question 5</strong> – <em>Before</em> the code chunk, change the “Running the Provided Code” section header to a header that better describes the contents of this section (e.g., Tooth Growth Dataset).</p>
 </section>
 </section>
