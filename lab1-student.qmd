@@ -24,7 +24,7 @@ provides descriptions on the options you can specify in a document's execution.
 options, (1) your source code is always output on the page, and (2) your
 document will render even if there are errors.
 
-## Running the Provided Code
+## Tooth Growth Dataset
 
 ```{r}
 #| eval: false
