@@ -66,8 +66,8 @@ section (e.g., Tooth Growth Dataset).
 #| label: creating-a-plot
 #| layout-ncol: 2
 #| fig-align: center
+#| fig-cap: "hello"
 
-install.packages("tidyverse")
 library(tidyverse)
 
 ggplot(data = ToothGrowth, 
