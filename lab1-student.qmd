@@ -1,6 +1,6 @@
 ---
 title: "Lab 1: Introduction to Quarto"
-author: "Phillip Prak12!"
+author: "Phillip Prak!"
 date: "Insert the date here!"
 format: html
 editor: source
