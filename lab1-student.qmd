@@ -6,7 +6,8 @@ format: html
 editor: source
 embed-resources: true
 execute:
-  echo: false
+  echo: true 
+  error: true
 ---
 
 # Part Two: Exploring Quarto Documents
