@@ -8,6 +8,8 @@ embed-resources: true
 execute:
   echo: true 
   error: true
+  message: false
+  warning: false
 ---
 
 # Part Two: Exploring Quarto Documents
@@ -62,12 +64,15 @@ section (e.g., Tooth Growth Dataset).
 **Question 6** -- Replace the `plot(pressure)` code with the code provided in the Lab 1 instructions.
 
 ```{r}
-#| echo: true
+#| echo: False
 #| label: creating-a-plot
 #| layout-ncol: 2
 #| fig-align: center
 #| fig-cap: "hello"
+```
 
+
+```{r}
 library(tidyverse)
 
 ggplot(data = ToothGrowth, 
