@@ -64,15 +64,14 @@ section (e.g., Tooth Growth Dataset).
 **Question 6** -- Replace the `plot(pressure)` code with the code provided in the Lab 1 instructions.
 
 ```{r}
-#| echo: False
+#| echo: true
 #| label: creating-a-plot
 #| layout-ncol: 2
-#| fig-align: center
-#| fig-cap: "hello"
-```
+#| fig-align: "center"
+#| fig-cap:
+#|  - "Length of tooth and supplement"
+#|  - "Length of tooth and dosage "
 
-
-```{r}
 library(tidyverse)
 
 ggplot(data = ToothGrowth, 
@@ -87,6 +86,7 @@ ToothGrowth %>%
   labs(x = "Dose of Supplement (mg/day)", y = "Length of Teeth (mm)")
 ```
 
+
 Now, run this code chunk! You should see two side-by-side boxplots, one plot
 comparing tooth length between the two supplement delivery methods and one plot
 comparing tooth length between the three different dosages uses. 
@@ -100,4 +100,6 @@ should be **center aligned**.
 
 **Question 9** -- Specify a **figure caption** for the boxplots (using a
 code-chunk option).
+
+
 
