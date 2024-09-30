@@ -3,6 +3,11 @@ title: "Lab 1: Introduction to Quarto"
 author: "Phillip Prak!"
 date: "9/26/24!"
 format: html
+code-fold: true	
+toc: true
+toc-depth: 2
+theme: Morph
+fontcolor: black
 editor: source
 embed-resources: true
 execute:
